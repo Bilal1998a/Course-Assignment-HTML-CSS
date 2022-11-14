@@ -1,0 +1,150 @@
+body {
+	background-color: lightblue;
+	font-family: sans-serif;
+	margin: 5%;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+}
+
+header section {
+	display: flex;
+	flex-direction: row;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+
+}
+
+.logo img {
+	width: 150px;
+}
+.meny {
+	align-items: flex-start;
+	justify-content: flex-end;
+	width: 100%;
+	margin: 10px;
+	margin-right: 0;
+}
+
+.meny div {
+	display: flex;
+}
+
+.meny img {
+	max-width: 30px;
+	display: flex;
+	padding-left: 5px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+main .left {
+	display: flex;
+	
+	
+	width: fit-content;
+	align-self: center;
+	margin-top: 5%;
+	border-radius: 20px;
+	font-weight: bold;
+	border: 0px solid black;
+	flex-direction: column;
+}
+	
+main {display: flex;
+flex-wrap: wrap;
+}
+.wrapper {
+	display: grid;
+    grid-template-columns:repeat(3,1fr);
+	grid-template-rows:1fr;
+    gap: 5px
+
+}
+
+section div{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+
+}
+main .left a {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	padding: 10px;
+	margin-bottom: 5%;
+	background-color: antiquewhite;
+	border-radius: 20px;
+	font-weight: bold;
+	color: black;
+	border: 0.5px solid black;
+	
+}
+
+main .right 
+.wrapper{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+	grid-template-rows:1fr;
+    
+	
+}
+.bildestor{
+	height: 90px;
+	width: 100px;
+}
+main .right img {
+	display: flex;
+	
+	width: 250px;
+	height: auto;
+	padding-top: 40px;
+	justify-content: center;
+	margin-left: 70px;
+	
+}
+	
+
+.down {
+	padding-left: 20%;
+	padding-right: 10%;
+    
+}
+
+.down p {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	line-height: 150%;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 35%;
+    padding-right: 50%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+     }
+    
+  .addcart {
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: larger;
+  }
